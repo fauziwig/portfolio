@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.a1dbf951.css",
+    "main.js": "/portfolio/static/js/main.1d80c11a.js",
+    "static/js/770.b477def6.chunk.js": "/portfolio/static/js/770.b477def6.chunk.js",
+    "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
+    "static/media/myphoto.svg": "/portfolio/static/media/myphoto.3c4b098086754dfb514fd3900cd5202b.svg",
+    "static/media/about-img.png": "/portfolio/static/media/about-img.d29f1cfcf818705865ac.png",
+    "static/media/meeting.png": "/portfolio/static/media/meeting.6abeb64461ccb52af1be.png",
+    "static/media/wedding.png": "/portfolio/static/media/wedding.bd5cad3a089242f8589d.png",
+    "static/media/portal.png": "/portfolio/static/media/portal.5f09763ec23952308d87.png",
+    "static/media/CV-Fauzi-Triagung-Wiguna.pdf": "/portfolio/static/media/CV-Fauzi-Triagung-Wiguna.024db50d33d3efe6fb0c.pdf",
+    "static/media/adminify.png": "/portfolio/static/media/adminify.103e3bc0d70c7d87b78a.png",
+    "index.html": "/portfolio/index.html",
+    "static/media/pre.svg": "/portfolio/static/media/pre.cb038414e7ff24c46689.svg",
+    "main.a1dbf951.css.map": "/portfolio/static/css/main.a1dbf951.css.map",
+    "main.1d80c11a.js.map": "/portfolio/static/js/main.1d80c11a.js.map",
+    "770.b477def6.chunk.js.map": "/portfolio/static/js/770.b477def6.chunk.js.map",
+    "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a1dbf951.css",
+    "static/js/main.1d80c11a.js"
+  ]
+}
