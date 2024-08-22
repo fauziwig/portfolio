@@ -13,16 +13,17 @@ function ProjectCards(props) {
         <Card.Text style={{ textAlign: "justify" }}>
           {props.description}
         </Card.Text>
-        <Button variant="primary" href={props.ghLink} target="_blank">
-          <BsGithub /> &nbsp;
-          {props.isBlog ? "Blog" : "GitHub"}
-        </Button>
-        {"\n"}
-        {"\n"}
+        
+        {/* Conditionally render the GitHub button */}
+        {props.ghLink && (
+          <Button variant="primary" href={props.ghLink} target="_blank">
+            <BsGithub /> &nbsp;
+            {props.isBlog ? "Blog" : "GitHub"}
+          </Button>
+        )}
 
-        {/* If the component contains Demo link and if it's not a Blog then, it will render the below component  */}
-
-        {!props.isBlog && props.demoLink && (
+        {/* Conditionally render the Demo button */}
+        {props.demoLink && (
           <Button
             variant="primary"
             href={props.demoLink}
@@ -37,4 +38,5 @@ function ProjectCards(props) {
     </Card>
   );
 }
+
 export default ProjectCards;
